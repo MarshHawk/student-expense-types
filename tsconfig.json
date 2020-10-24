@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5" ,
+    "module": "commonjs" ,
+    "lib": [
+      "es2015",
+      "dom",
+      "esnext"
+    ],
+    "allowJs": false ,
+    "outDir": "./lib" ,
+    "strict": true ,
+    "noImplicitAny": true ,
+    "typeRoots": ["./node_modules/@types"],
+    "types": ["node"],
+    "declaration": true ,
+    "esModuleInterop": true 
+  },
+  "exclude": ["node_modules", "**/__test__/*"]
+}
