@@ -1,5 +1,4 @@
-import IExpense from "./expense.interface";
-import IStudent from "./student.interface";
+import { IExpense, IStudent } from "..";
 
 export interface ITrip {
     title: string;

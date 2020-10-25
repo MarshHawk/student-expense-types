@@ -1,4 +1,4 @@
-export default interface IStudent {
+export interface IStudent {
     name: string;
     totalTripExpenses: number;
 }

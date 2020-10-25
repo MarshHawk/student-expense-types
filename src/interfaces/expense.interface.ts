@@ -1,4 +1,4 @@
-export default interface IExpense {
+export interface IExpense {
     studentName: string;
     amount: number;
     type: string;
